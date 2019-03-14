@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PRODUCT NAME"/>
+
+    <EditText
+        android:id="@+id/etProductNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PRODUCT NUMBER"/>
+
+    <EditText
+        android:id="@+id/etProductInventoryCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PRODUCT INVENTORY COUNT"/>
+
+    <EditText
+        android:id="@+id/etProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PRODUCT DESCRIPTION"/>
+
+    <Button
+        android:id="@+id/SubmitInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="CLICK TO SUBMIT"/>
+</LinearLayout>
